@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" 
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="container">
+            <header class="header" id="header">
+         
+         
+                <div class="logo">Rick and Morty</div>
+
+                <nav class="navbar" id="nav">
+                    <a href="" data-scroll="#caracter__cont">Characters</a>
+                    <a href="" data-scroll="#Episodes">Episodes</a>
+                    <a href="" data-scroll="#Location">Location</a>
+                    <a href="">My list</a>
+
+                    <div class="circle"></div>
+                </nav>
+               
+            </header>
+           
+             <div class="cont"> 
+         
+            <div class="cont__textContainer">
+                <h3 class="cont__text">Rick and Morty</h3>
+                <p>Rick and Morty is an American adult animated science-fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's nighttime programming block Adult Swim. It is distributed internationally by Warner Bros. Television Distribution. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures that take place across an infinite number of realities, often travelling to other planets and dimensions through portals and on Rick's flying saucer. </p>
+                <button class="cont__btn">Start</button>
+
+
+            </div>
+             
+              
+            </div> 
+
+        
+            
+            
+        </div>
+        <div class="nextCont">
+               
+            <!-- <div class="h3">Characters</div> -->
+  
+
+        <div class="controls" >  <div class="h3">Characters</div>
+            <button  class="button" id="prevBtn"><</button>
+             
+            <div class="select">
+                <button class="select__btn" id="all">All</button>
+                <button class="select__btn" id="female">Female</button>
+                <button class="select__btn" id="male">Male</button>
+                <button class="select__btn" id="unknown">Unknown</button>
+            </div>
+            <button  class="button" id="nextBtn">></button>
+          
+           
+        </div>
+     
+        <div class="caracter__cont" id="caracter__cont" >
+         
+     
+         
+       
+       
+
+    
+ 
+            
+        </div>
+
+    
+
+        <div class="femaleContainer">
+
+        </div>
+        <div class="maleContainer">
+
+        </div>
+  
+
+        <div class="unknownContainer">
+
+        </div>
+        <div class="controls cont__two"> 
+             <div class="h3 e">Episodes</div>
+        <button  class="button one" id="prevEpBtn"><</button>
+        
+         
+        <button  class="button twoLoc" id="nextEpBtn">></button>
+      
+       
+    </div>
+
+
+        <div class="episodContainer" id="Episodes">
+
+        </div>
+     
+
+        <div class="controls cont__two"> 
+            <div class="h3 l">Location</div>
+       <button  class="button oneLoc" id="prevLcBtn"><</button>
+       <div class="select locate">
+        <button class="select__btn" id="locAll">All</button>
+        <button class="select__btn" id="planet" >Planet</button>
+     
+        <button class="select__btn" id="tv" >Tv</button>
+        <button class="select__btn"  id="micro">Microverse</button>
+        <button class="select__btn space"  id="space">Space station</button>
+
+     
+    </div>
+    <button class="button twoLoca" id="nextLcBtn">></button>
+        
+
+     
+     
+      
+   </div>
+
+       
+
+
+    </div>
+    <div class="locationContainer" id="Location">
+
+    </div>
+    <div class="planetContainer"></div>
+
+    <div class="tvContainer"></div>
+    <div class="microContainer"></div>
+    <div class="spaceContainer"></div>
+
+    <div class="mylistContainer">
+
+        <h3 class="list__h3">My list</h3>
+    </div>
+
+     
+    </div>
+   
+     
+</div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
